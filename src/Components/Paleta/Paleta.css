@@ -1,0 +1,25 @@
+.paletaContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.cercCuloare {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: transform 0.1s;
+}
+
+.cercCuloare:hover {
+  transform: scale(1.1);
+}
+
+.cercCuloare.activ {
+  border: 3px solid #333;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}

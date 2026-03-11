@@ -1,0 +1,19 @@
+.tablaGrid {
+  display: grid;
+  grid-template-columns: repeat(20, 25px); 
+  grid-template-rows: repeat(20, 25px);
+  border: 1px solid #ccc;
+  background-color: white;
+  user-select: none; 
+}
+
+.celula {
+  width: 25px;
+  height: 25px;
+  border: 0.5px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+.celula:hover {
+  filter: brightness(0.9);
+}

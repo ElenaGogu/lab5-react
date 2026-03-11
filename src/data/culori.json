@@ -1,0 +1,14 @@
+[
+  { "id": 1, "nume": "Neon Pink", "cod": "#FF007F" },
+  { "id": 2, "nume": "Electric Violet", "cod": "#8F00FF" },
+  { "id": 3, "nume": "Cyber Yellow", "cod": "#FFD300" },
+  { "id": 4, "nume": "Bright Turquoise", "cod": "#08E8DE" },
+  { "id": 5, "nume": "Flaming Orange", "cod": "#FF5E00" },
+  { "id": 6, "nume": "Laser Green", "cod": "#66FF00" },
+  { "id": 7, "nume": "Deep Sky Blue", "cod": "#00BFFF" },
+  { "id": 8, "nume": "Ultra Magenta", "cod": "#FF00FF" },
+  { "id": 9, "nume": "Electric Blue", "cod": "#2E3192" },
+  { "id": 10, "nume": "Hot Red", "cod": "#FF0000" },
+  { "id": 11, "nume": "Toxic Lime", "cod": "#CCFF00" },
+  { "id": 12, "nume": "Midnight Black", "cod": "#1A1A1B" }
+]

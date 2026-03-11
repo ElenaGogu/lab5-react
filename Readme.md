@@ -1,49 +1,16 @@
-# Crearea unei Aplicații de Pixel Art în React
+# React + Vite
 
-## Cerințe Generale
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Configurare Proiect
-- Creează un proiect `React` folosind `Vite`.
-- Folosește fișiere `.json` pentru a stoca paleta de culori disponibile.
+Currently, two official plugins are available:
 
-### Interfață Utilizator (UI) & Experiență
-- Stilizarea se poate face cu CSS/modulare sau biblioteci externe (e.g., Tailwind, Material-UI).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Funcționalități
+## React Compiler
 
-### 1. Grid-ul de Desen și Selectarea Culorilor
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Afișează un **grid NxN** (e.g., 20×20) de celule care servește drept canvas de desen.
-- Utilizatorul poate **colora celule** prin click.
-- Desenare e posibilă prin **click și drag** (ținând mouse-ul apăsat și deplasându-l peste celule).
-- Afișează o **paletă de culori** (minim 10 culori, încărcate din fișier `.json`).
-- Culoarea selectată curentă trebuie **evidențiată vizual**.
-- Buton de **Reset** care curăță întregul canvas.
+## Expanding the ESLint configuration
 
-> **Indicații:** Pentru drag-to-paint, veți avea nevoie de evenimentele `onMouseDown`, `onMouseEnter` și `onMouseUp`.
-
-### 2. Galerie — Salvare și Încărcare Desene
-
-- Buton de **Save** care salvează desenul curent în galerie.
-- **Galeria** afișează **thumbnail-uri** (miniaturi) ale tuturor desenelor salvate.
-- Click pe un thumbnail sau buton **Load** — încarcă desenul în canvas pentru editare.
-- Buton de **Delete** pentru ștergerea unui desen din galerie.
-- Afișează **numărul total** de desene salvate.
-
-## Barem de notare
-
-| Punctaj | Sarcina |
-|---------|---------|
-| 1 | Crearea corectă a proiectului |
-| 1 | Utilizarea fișierelor `JSON` pentru paleta de culori |
-| 1 | UI Neoribil |
-| 1 | Utilizarea corectă a state-urilor |
-| 2 | Grid-ul de desen cu selectarea culorilor și reset |
-| 2 | Galeria de desene cu salvare/încărcare/ștergere |
-| 2 | Funcționalitatea de desenare prin click & drag |
-
-### Link de exemplu de soluție: [Pixel Art App Example](https://pixel-draw-amber.vercel.app/)
-
-## !! BAREM-UL DE MAI SUS ESTE PENTRU VERIFICAREA INIȚIALĂ A LABORATORULUI — LA ÎNCĂRCAREA ACESTUIA PE GITHUB. NOTA FINALĂ POATE FI MODIFICATĂ ÎN DEPENDENȚA APĂRĂRII LABORATORULUI ÎN CADRUL ORELOR !!
-
-## !! NU SE ACCEPTĂ ÎNTÂRZIERI !!
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

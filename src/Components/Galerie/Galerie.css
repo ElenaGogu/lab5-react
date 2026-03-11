@@ -1,0 +1,46 @@
+.galerie {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 80vh;
+  overflow-y: auto; 
+}
+
+.itemGalerie {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grilaMica {
+  display: grid;
+  grid-template-columns: repeat(20, 4px); 
+  grid-template-rows: repeat(20, 4px);
+  border: 1px solid #ddd;
+  background-color: #fff;
+  margin-bottom: 8px;
+}
+
+.miniP {
+  width: 4px;
+  height: 4px;
+}
+
+.actiuni {
+  display: flex;
+  gap: 5px;
+}
+
+.actiuni button {
+  padding: 2px 8px;
+  font-size: 11px;
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.actiuni .btnDelete:hover {
+  background-color: #ffebee;
+}
